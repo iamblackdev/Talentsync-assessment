@@ -1,0 +1,74 @@
+.app__cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  padding-left: 125px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  background-color: white;
+}
+
+.cta__perks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta__perks span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cta__text {
+  /* flex: 1; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  margin-top: 2.5rem;
+}
+
+.cta__btn{
+    display: flex;
+    gap: 1rem;
+}
+
+.cta__btn button {
+  height: 52px;
+  padding: 14px, 24px, 14px, 24px;
+  border-radius: 30px;
+}
+
+.btn_two {
+  width: 195px;
+  color: white;
+  background-color: #175CD3;
+}
+
+.btn_one {
+  width: 144px;
+  border: 2px solid #175CD3;
+  background: transparent;
+}
+
+.cta_img {
+  /* flex: 1; */
+  width: 70%;
+  padding: 0;
+}
+
+.cta_img img {
+  width: 100%;
+}
+
+.cta__header {
+  color: var(--gray-800, #1d2939);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.96px;
+}

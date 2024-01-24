@@ -1,0 +1,101 @@
+.header {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+
+	.talkToSales {
+		padding: 5px 20px;
+		border-radius: 100px;
+		border: 1px solid #98a2b3;
+		background: #fff;
+		box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+	}
+
+	.signuP {
+		display: flex;
+		padding: 5px 20px;
+		justify-content: center;
+		align-items: center;
+		gap: 4px;
+		border-radius: 100px;
+		background: #175cd3;
+		/* Shadow/xs */
+		box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+		color: var(--base-white, #fff);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		/* 150% */
+	}
+
+	button {
+		cursor: pointer;
+	}
+
+	.nav-list {
+		width: 40%;
+	}
+
+	.nav-button {
+		width: max-content;
+		display: flex;
+		justify-content: space-between;
+		gap: 5px;
+	}
+
+	.logo {
+		width: max-content;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		display: flex;
+		gap: 10px;
+	}
+
+	.nav-item-title {
+		color: #667085;
+		/* Text lg/Semibold */
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 28px;
+	}
+
+	.nav-item {
+		display: flex;
+		gap: 5px;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	.header-content {
+		width: 80%;
+		/* height: 50%; */
+		border-radius: 100px;
+		border: 1px solid #d0d5dd;
+		background: #f2f4f7;
+		padding: 0.5rem 10px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.nav-list {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo-name {
+		color: #101828;
+		font-family: Inter;
+		font-size: 19px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+}
